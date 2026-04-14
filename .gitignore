@@ -1,0 +1,79 @@
+# =========================
+# Dependencies
+# =========================
+/node_modules
+
+# =========================
+# Build output
+# =========================
+/dist
+/build
+
+# =========================
+# Prisma (optional safety)
+# =========================
+.prisma
+/generated/prisma
+
+# =========================
+# Environment variables (CRITICAL)
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing
+# =========================
+/coverage
+/.nyc_output
+
+# =========================
+# IDEs and editors
+# =========================
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VSCode (keep useful configs)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# =========================
+# Temp / runtime
+# =========================
+.temp
+.tmp
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# Node diagnostic reports
+# =========================
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
