@@ -11,8 +11,9 @@ async function bootstrap() {
 
   app.enableCors({
     origin: [
-      "https://radiosekai-3bp5q7tbl-mahoutsukai22s-projects.vercel.app"
+      'https://radiosekai-pgcz51ykj-mahoutsukai22s-projects.vercel.app',
     ],
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
 
